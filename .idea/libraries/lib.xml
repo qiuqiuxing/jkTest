@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/lib" />
+      <root url="jar://D:/software/tomcat/apache-tomcat-7.0.70/lib/catalina.jar!/" />
+      <root url="jar://D:/software/tomcat/apache-tomcat-7.0.70/lib/el-api.jar!/" />
+      <root url="jar://D:/software/tomcat/apache-tomcat-7.0.70/lib/jsp-api.jar!/" />
+      <root url="jar://D:/software/tomcat/apache-tomcat-7.0.70/lib/servlet-api.jar!/" />
+      <root url="jar://D:/testJar/gson-2.8.5.jar!/" />
+      <root url="jar://D:/testJar/json.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/lib" recursive="false" />
+  </library>
+</component>

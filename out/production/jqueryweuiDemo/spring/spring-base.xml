@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--  社保三版码值 -->
+    <bean id="cdsiAppCode" class="com.yinhai.base.appcode.CdsiAppCode">
+        <constructor-arg ref="cdsiXtptService"/>
+    </bean>
+    <!--  社保三版码值加载类 -->
+    <bean id="codeTableLocator" class="com.yinhai.base.appcode.CodeTableLocator">
+        <property name="cdsiAppCode" ref="cdsiAppCode"/>
+    </bean>
+    <!--协同平台查询整合类-->
+    <bean id="queryXtptService" class="com.yinhai.base.service.cdsixtpt.QueryXtptService">
+    </bean>
+</beans>

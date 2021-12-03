@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="iTrusCertAPI-2.7.9_jdk15">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/iTrusCertAPI-2.7.9_jdk15.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

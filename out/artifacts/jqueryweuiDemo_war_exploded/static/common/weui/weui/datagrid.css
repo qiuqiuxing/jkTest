@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+form {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: flex-end;
+}
+
+.datagrid-content {
+	flex-grow: 1;
+	overflow: auto;
+	flex-direction: column;
+	padding: 10px;
+	display: none;
+}
+
+.datagrid-item {
+	border: 1px solid #EEE;
+	line-height: 2;
+	font-size: 14px;
+	background-color: #FFF;
+	margin-bottom: 10px;
+}
+
+.item-content {
+	padding: 15px;
+	padding-bottom: 0px;
+}
+
+.item-row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.item-row>label {
+	color: var(--weui-FG-1);
+}
+
+.item-row>span {
+	color: #339966;
+}
+
+.opt-group {
+	display: flex;
+	border-top: 1px solid #EEE;
+	padding: 5px;
+}
+
+.opt-group>* {
+	flex-grow: 1;
+	text-align: center;
+}
+
+.btn-edit {
+	color: #3399FF;
+}
+
+.btn-separation {
+	border-right: 1px solid #EEE;
+}
+
+.btn-del {
+	color: #FF9933;
+}
+
+.nodata-content {
+	flex-grow: 1;
+	overflow: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-color: #FFF;
+	display: none;
+}

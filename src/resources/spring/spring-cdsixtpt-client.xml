@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--  协同平台本地客户端 -->
+    <bean id="cdsiXtptService" class="com.yinhai.base.service.cdsixtpt.CdsiXtptServiceImpl">
+        <constructor-arg index="0" value="${cdsixtpt.MaxTotal}"/>
+        <constructor-arg index="1" value="${cdsixtpt.MaxPerRoute}"/>
+        <constructor-arg index="2" value="${cdsixtpt.url}"/>
+        <constructor-arg index="3" value="${cdsixtpt.systemID}"/>
+    </bean>
+</beans>
